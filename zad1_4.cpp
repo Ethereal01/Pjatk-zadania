@@ -48,4 +48,21 @@ int main()
         cout << liczba3;
     }
     //3
+    cout << endl << "Najwieksza liczba to: ";
+    if (liczba1 > liczba2 > liczba3 || liczba2 > liczba3)
+    {
+        if (liczba1 > liczba2)
+        {
+            cout << liczba1;
+        }
+        else
+        {
+            cout << liczba2;
+        }
+        
+    } 
+    else
+    {
+        cout << liczba3;
+    }
 }
